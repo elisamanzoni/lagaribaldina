@@ -1,6 +1,6 @@
 #sopra{
   position:fixed;
-  height: 10vh;
+  height: 6em;
   width: 100%;
   background-color: white;
   top:0%;
@@ -10,7 +10,7 @@
 .barra{
   position: fixed;
   transform: translate(50%, -50%);
-  top: 5vh;
+  top: 3.5em;
   font: bold 10pt Helvetica;
 }
 
@@ -21,9 +21,9 @@
 
 #logo_piccolo{
   position:fixed;
-  width: 15vw;
-  top: 5vh;
-  left:10vh;
+  width: 15%;
+  top: 3em;
+  left:3em;
   transform: translate(0, -50%);
 }
 
@@ -61,7 +61,7 @@
 
 #titolo{
   position: absolute;
-  top:10vh;
+  top:6em;
   left:0%;
   right: 0%;
 }
@@ -74,7 +74,7 @@
 
 #logo_nome{
   position:absolute;
-  top: 42vh;
+  top: 20em;
   left: 50%;
   width:40%;
   transform: translate(-50%,-50%);
@@ -85,7 +85,7 @@
 
 #tre{
   position: absolute;
-  top:110vh;
+  top:55em;
   transform: translate(-50%, -50%);
   left: 50%;
 }

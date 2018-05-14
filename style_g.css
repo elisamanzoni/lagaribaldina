@@ -66,6 +66,7 @@
   right: 0%;
 }
 
+
 #foto_inizio{
   position: absolute;
   width: 100%;
@@ -95,6 +96,30 @@ h2 {
     color: #C01823;
 }
 
+h3 {
+    font:25pt "Helvetica";
+    color: white;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+    top:1em;
+}
+
+#quattro{
+  position:absolute;
+  height: 20em;
+  width: 100%;
+  background-color: #C01823;
+  top:70em;
+  left:0%;
+}
+
+#red{
+  position: absolute;
+  top:8em;
+  left:50%;
+  transform: translate(-50%,0);
+}
 p{
     font:10pt "Helvetica";
     text-align: center;

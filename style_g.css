@@ -1,0 +1,101 @@
+#sopra{
+  position:fixed;
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  top:0%;
+  left:0%;
+}
+
+.barra{
+  position: fixed;
+  transform: translate(50%, -50%);
+  top: 5vh;
+  font: bold 10pt Helvetica;
+}
+
+.barra:hover{
+  color:#999999;
+  transition: 0.2s;
+}
+
+#logo_piccolo{
+  position:fixed;
+  width: 15vw;
+  top: 5vh;
+  left:10vh;
+  transform: translate(0, -50%);
+}
+
+
+#HOME{
+  right:50%;
+}
+
+#la_banda{
+  right:43%;
+}
+
+#viaggi{
+  right:36%;
+}
+
+#gallery{
+  right:29%;
+}
+
+#canzoni{
+  right:22%;
+}
+
+#servizi{
+  right:15%;
+}
+
+#contatti{
+  right:8%;
+}
+
+
+
+
+#titolo{
+  position: absolute;
+  top:10vh;
+  left:0%;
+  right: 0%;
+}
+
+#foto_inizio{
+  position: absolute;
+  width: 100%;
+}
+
+
+#logo_nome{
+  position:absolute;
+  top: 42vh;
+  left: 50%;
+  width:40%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+
+#tre{
+  position: absolute;
+  top:110vh;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+h2 {
+    font:25pt "Helvetica";
+    color: #C01823;
+}
+
+p{
+    font:10pt "Helvetica";
+    text-align: center;
+}

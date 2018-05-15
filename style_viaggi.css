@@ -76,9 +76,12 @@ h1 {
 /* inizio foto */
 .testo{
   position:absolute;
-  font: bold 15pt "Helvetica";
-  left:1em;
-  top:1em;
+  text-align: center;
+  font: bold 20pt "Helvetica";
+  transform: translate(-50%,-50%);
+  left:50%;
+  top:50%;
+  color: #2B3990;
 }
 
 #foto{
@@ -105,7 +108,7 @@ height: 110em;
   opacity:0;
 }
 #dachau_bianco:hover{
-  opacity:0.5;
+  opacity:0.7;
   transition: 0.5s;
 }
 
@@ -127,7 +130,7 @@ height: 110em;
   opacity:0;
 }
 #fendremant_bianco:hover{
-  opacity:0.5;
+  opacity:0.7;
   transition: 0.5s;
 }
 
@@ -149,7 +152,7 @@ height: 110em;
   opacity:0;
 }
 #slovacchia_bianco:hover{
-  opacity:0.5;
+  opacity:0.7;
   transition: 0.5s;
 }
 
@@ -170,7 +173,7 @@ height: 110em;
   opacity:0;
 }
 #austria_bianco:hover{
-  opacity:0.5;
+  opacity:0.7;
   transition: 0.5s;
 }
 
@@ -191,7 +194,7 @@ height: 110em;
   opacity:0;
 }
 #auschwitz_bianco:hover{
-  opacity:0.5;
+  opacity:0.7;
   transition: 0.5s;
 }
 
@@ -211,7 +214,7 @@ height: 110em;
   opacity:0;
 }
 #carvin_bianco:hover{
-  opacity:0.5;
+  opacity:0.7;
   transition: 0.5s;
 }
 
@@ -231,6 +234,6 @@ height: 110em;
   opacity:0;
 }
 #germania_bianco:hover{
-  opacity:0.5;
+  opacity:0.7;
   transition: 0.5s;
 }

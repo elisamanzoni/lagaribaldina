@@ -13,6 +13,7 @@
   transform: translate(50%, -50%);
   top: 3.5em;
   font: bold 10pt Helvetica;
+  color:#2B3990;
 }
 
 .barra:hover{
@@ -79,7 +80,7 @@ a{
   position:absolute;
   top:50%;
   left: 50%;
-  height: 20em;
+  height: 23em;
   transform: translate(-50%,-50%);
 }
 
@@ -166,10 +167,13 @@ em{
   }
 
     #h2_red {
-        font:bold 30pt "Century Gothic";
+      text-align: center;
+        width: 600px;
+        font:bold 20pt "Century Gothic";
         color: white;
         position: absolute;
         left:50%;
         transform: translate(-50%,0);
-        top:1em;
+        top:4em;
+        line-height: 1.5em;
     }

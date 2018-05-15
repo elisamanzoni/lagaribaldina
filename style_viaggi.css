@@ -74,6 +74,12 @@ h1 {
 
 
 /* inizio foto */
+.testo{
+  position:absolute;
+  font: bold 15pt "Helvetica";
+  left:1em;
+  top:1em;
+}
 
 #foto{
 position: absolute;
@@ -89,6 +95,20 @@ height: 110em;
   top: 20em;
   left:18em;
 }
+#dachau_bianco{
+  position:absolute;
+  height: 620px;
+  width: 620px;
+  top: 20em;
+  left:18.5em;
+  background-color: white;
+  opacity:0;
+}
+#dachau_bianco:hover{
+  opacity:0.5;
+  transition: 0.5s;
+}
+
 
 #fandremant{
   position:absolute;
@@ -97,12 +117,42 @@ height: 110em;
   right:18em;
 }
 
+#fendremant_bianco{
+  position:absolute;
+  height: 298px;
+  width: 298px;
+  top: 20em;
+  right:18em;
+  background-color: white;
+  opacity:0;
+}
+#fendremant_bianco:hover{
+  opacity:0.5;
+  transition: 0.5s;
+}
+
+
+
 #slovacchia{
   position:absolute;
   height: 288px;
   top: 40.1em;
   right:18em;
 }
+#slovacchia_bianco{
+  position:absolute;
+  height: 290px;
+  width: 290px;
+  top: 40.6em;
+  right:18.5em;
+  background-color: white;
+  opacity:0;
+}
+#slovacchia_bianco:hover{
+  opacity:0.5;
+  transition: 0.5s;
+}
+
 
 #austria{
   position:absolute;
@@ -110,12 +160,39 @@ height: 110em;
   top: 61em;
   left:18em;
 }
+#austria_bianco{
+  position:absolute;
+  height: 290px;
+  width: 290px;
+  top: 61.5em;
+  left:18.5em;
+  background-color: white;
+  opacity:0;
+}
+#austria_bianco:hover{
+  opacity:0.5;
+  transition: 0.5s;
+}
+
 
 #auschwitz{
   position:absolute;
   height: 288px;
   top: 61em;
   right:18em;
+}
+#auschwitz_bianco{
+  position:absolute;
+  height: 290px;
+  width: 610px;
+  top: 61.5em;
+  right:18.5em;
+  background-color: white;
+  opacity:0;
+}
+#auschwitz_bianco:hover{
+  opacity:0.5;
+  transition: 0.5s;
 }
 
 #carvin{
@@ -124,10 +201,36 @@ height: 110em;
   top: 81em;
   left:18em;
 }
+#carvin_bianco{
+  position:absolute;
+  height: 290px;
+  width: 610px;
+  top: 81.5em;
+  left:18.5em;
+  background-color: white;
+  opacity:0;
+}
+#carvin_bianco:hover{
+  opacity:0.5;
+  transition: 0.5s;
+}
 
 #germania{
   position:absolute;
   height: 288px;
   top: 81em;
   right:18em;
+}
+#germania_bianco{
+  position:absolute;
+  height: 290px;
+  width: 290px;
+  top: 81.5em;
+  right:18.5em;
+  background-color: white;
+  opacity:0;
+}
+#germania_bianco:hover{
+  opacity:0.5;
+  transition: 0.5s;
 }

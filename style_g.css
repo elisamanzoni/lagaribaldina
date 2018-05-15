@@ -69,7 +69,9 @@ a{
   height: 35em;
   left:50%;
   transform: translate(-50%,0);
-  width: 800px;
+  width: 100%;
+  background-image: url(foto/Foto_inizio_7.png);
+  background-position: center center;
 }
 
 
@@ -86,7 +88,7 @@ a{
   position:absolute;
   top:50%;
   left: 50%;
-  width:60%;
+  height: 20em;
   transform: translate(-50%,-50%);
 }
 

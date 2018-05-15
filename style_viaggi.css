@@ -64,12 +64,12 @@ a{
 
 
 h1 {
-    font:25pt "Helvetica";
+    font:20pt "Helvetica";
     color: #C01823;
     position: absolute;
     transform: translate(-50%,-50%);
     left:50%;
-    top:6em;
+    top:8em;
 }
 
 
@@ -77,7 +77,7 @@ h1 {
 .testo{
   position:absolute;
   text-align: center;
-  font: bold 20pt "Helvetica";
+  font: bold 15pt "Helvetica";
   transform: translate(-50%,-50%);
   left:50%;
   top:50%;
@@ -87,23 +87,25 @@ h1 {
 #foto{
 position: absolute;
 background-color: white;
-width: 99%;
+width: 800px;
 height: 110em;
+transform: translate(-50%,0);
+left:50%;
 }
 
 
 #dachau{
   position:absolute;
-  height: 610px;
+  height: 523px;
   top: 20em;
-  left:18em;
+  left:0;
 }
 #dachau_bianco{
   position:absolute;
-  height: 620px;
-  width: 620px;
+  height: 523px;
+  width: 523px;
   top: 20em;
-  left:18.5em;
+  left:0%;
   background-color: white;
   opacity:0;
 }
@@ -115,17 +117,17 @@ height: 110em;
 
 #fandremant{
   position:absolute;
-  height: 288px;
+  height: 247px;
   top: 20em;
-  right:18em;
+  right:0%;
 }
 
 #fendremant_bianco{
   position:absolute;
-  height: 298px;
-  width: 298px;
+  height: 247px;
+  width: 247px;
   top: 20em;
-  right:18em;
+  right:0%;
   background-color: white;
   opacity:0;
 }
@@ -138,16 +140,16 @@ height: 110em;
 
 #slovacchia{
   position:absolute;
-  height: 288px;
-  top: 40.1em;
-  right:18em;
+  height: 247px;
+  top: 37.3em;
+  right:0em;
 }
 #slovacchia_bianco{
   position:absolute;
-  height: 290px;
-  width: 290px;
-  top: 40.6em;
-  right:18.5em;
+  height: 247px;
+  width: 247px;
+  top: 37.3em;
+  right:0em;
   background-color: white;
   opacity:0;
 }
@@ -159,16 +161,16 @@ height: 110em;
 
 #austria{
   position:absolute;
-  height: 288px;
-  top: 61em;
-  left:18em;
+  height: 247px;
+  top: 54.6em;
+  left:0em;
 }
 #austria_bianco{
   position:absolute;
-  height: 290px;
-  width: 290px;
-  top: 61.5em;
-  left:18.5em;
+  height: 247px;
+  width: 247px;
+  top: 54.6em;
+  left:0em;
   background-color: white;
   opacity:0;
 }
@@ -180,16 +182,16 @@ height: 110em;
 
 #auschwitz{
   position:absolute;
-  height: 288px;
-  top: 61em;
-  right:18em;
+  height: 247px;
+  top: 54.6em;
+  right:0em;
 }
 #auschwitz_bianco{
   position:absolute;
-  height: 290px;
-  width: 610px;
-  top: 61.5em;
-  right:18.5em;
+  height: 247px;
+  width: 523px;
+  top: 54.6em;
+  right:0em;
   background-color: white;
   opacity:0;
 }
@@ -200,16 +202,16 @@ height: 110em;
 
 #carvin{
   position:absolute;
-  height: 288px;
-  top: 81em;
-  left:18em;
+  height: 247px;
+  top: 72em;
+  left:0em;
 }
 #carvin_bianco{
   position:absolute;
-  height: 290px;
-  width: 610px;
-  top: 81.5em;
-  left:18.5em;
+  height: 247px;
+  width: 523px;
+  top: 72em;
+  left:0em;
   background-color: white;
   opacity:0;
 }
@@ -220,16 +222,16 @@ height: 110em;
 
 #germania{
   position:absolute;
-  height: 288px;
-  top: 81em;
-  right:18em;
+  height: 247px;
+  top: 72em;
+  right:0em;
 }
 #germania_bianco{
   position:absolute;
-  height: 290px;
-  width: 290px;
-  top: 81.5em;
-  right:18.5em;
+  height: 247px;
+  width: 247px;
+  top: 72em;
+  right:0em;
   background-color: white;
   opacity:0;
 }

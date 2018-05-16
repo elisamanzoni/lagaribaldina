@@ -13,7 +13,7 @@
   transform: translate(50%, -50%);
   top: 3.5em;
   font: bold 10pt Helvetica;
-  color:#2B3990;
+  color:black;
 }
 
 .barra:hover{
@@ -122,9 +122,12 @@ h3{
   background-color: #2B3990;
   transform: translate(-50%, 0);
   left: 50%;
-  top: 18em;
+
 }
 
+.barra1{
+  top:18em;
+}
 p{
   width: 600px;
   transform: translate(-50%, 0);
@@ -176,4 +179,9 @@ em{
         transform: translate(-50%,0);
         top:4em;
         line-height: 1.5em;
+    }
+
+    .barra2{
+      position: absolute;
+      top:20em;
     }

@@ -1,0 +1,131 @@
+#sopra{
+  position:fixed;
+  height: 6em;
+  width: 100%;
+  background-color: white;
+  top:0%;
+  left:0%;
+    box-shadow: 0px 0px 30px grey;
+}
+
+.barra{
+  position: fixed;
+  transform: translate(50%, -50%);
+  top: 3.5em;
+  font: bold 10pt Helvetica;
+}
+
+.barra:hover{
+  color:#999999;
+  transition: 0.2s;
+}
+
+#logo_piccolo{
+  position:fixed;
+  width: 13em;
+  top: 3em;
+  left:3em;
+  transform: translate(0, -50%);
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+#HOME{
+  right:50%;
+}
+
+#la_banda{
+  right:43%;
+}
+
+#viaggi{
+  right:36%;
+}
+
+#gallery{
+  right:29%;
+}
+
+#canzoni{
+  right:22%;
+}
+
+#servizi{
+  right:15%;
+}
+
+#contatti{
+  right:8%;
+}
+
+/* Fine barra dei menù */
+
+h1 {
+    font: bold 20pt "Century Gothic";
+    color: #C01823;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:4em;
+}
+
+
+#centro{
+  position: absolute;
+  background-color: none;
+  width: 800px;
+  top:5em;
+  height: 80em;
+  transform: translate(-50%,0);
+  left:50%;
+}
+
+
+#cartina{
+    position:absolute;
+    height: 523px;
+    top: 12em;
+    transform: translate(-50%,0%);
+    left:50%;
+}
+
+#red{
+  position: absolute;
+  width: 100%;
+  height: 35em;
+  left:0%;
+  top:57em;
+    background-color: #C01823;
+  }
+
+  /* inizio loghetti*/
+
+.loghetti{
+  position:absolute;
+  height: 30px;
+  transform: translate(-50%,0%);
+  left:18%;
+}
+
+  #gps{  top:59em; height: 40px;}
+  #phone{  top:63em; height: 35px; }
+  #mail{  top:66.7em; height: 25px; }
+  #youtube{  top:69.8em; height: 30px; }
+  #facebook{  top:73em;  }
+
+.opacity:hover{
+  opacity:0.5;
+  transition: 0.5s;
+}
+
+  p{
+    left: 25%;
+    position: absolute;
+    top:34.5em;
+    font: bold 20pt "Century Gothic";
+    color: white;
+    line-height: 2em;
+  }

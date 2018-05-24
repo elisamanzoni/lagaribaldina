@@ -154,18 +154,26 @@ p {
       line-height: 1.5em;
   }
 
+
+
   .link{
+    text-align: center;
+      font:BOLD 12pt "Century Gothic";
+      line-height: 50px;
     position: absolute;
-    left:50%;
-    transform: translate(-50%,0);
-      font: 20pt "Century Gothic";
-      opacity:0.5;
-      top:6em;
+    top:10em;
+    width:150px;
+    height: 50px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    border: 2px solid white;
+    opacity: 0.6;
+    border-radius: 10px;
   }
 
   .link:hover{
-    opacity: 1;
-  }
+    opacity:1;
+    transition: 0.2s;}
 
 .opacity:hover{
   box-shadow: 8px 8px 20px #B3B3B3;

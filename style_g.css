@@ -1,6 +1,6 @@
 #sopra{
   position:fixed;
-  height: 6em;
+  height: 5.5em;
   width: 100%;
   background-color: white;
   top:0%;
@@ -11,14 +11,19 @@
 .barra{
   position: fixed;
   transform: translate(50%, -50%);
-  top: 3.5em;
-  font: bold 10pt Helvetica;
+  top: 3em;
+  font: bold 11pt "Century Gothic";
   color:black;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .barra:hover{
-  color:#999999;
+  color:black;
   transition: 0.2s;
+  border: 2px solid #C01823;
 }
 
 #logo_piccolo{
@@ -67,13 +72,14 @@ a{
 
 #titolo{
   position: absolute;
-  top:6em;
+  top:5.5em;
   height: 40em;
   left:50%;
   transform: translate(-50%,0);
   width: 100%;
   background-image: url(foto/Foto_inizio_8.png);
   background-position: center center;
+    animation:opacity 3s;
 }
 
 
@@ -83,6 +89,12 @@ a{
   left: 50%;
   height: 23em;
   transform: translate(-50%,-50%);
+  animation:opacity 3s;
+}
+
+@keyframes opacity{
+  from{opacity:0;}
+  to{opacity: 1;}
 }
 
 /*Fine foto centrale */

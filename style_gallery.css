@@ -1,23 +1,29 @@
 #sopra{
   position:fixed;
-  height: 6em;
+  height: 5.5em;
   width: 100%;
   background-color: white;
   top:0%;
   left:0%;
-    box-shadow: 0px 0px 30px grey;
+  box-shadow: 0px 0px 30px grey;
 }
 
 .barra{
   position: fixed;
   transform: translate(50%, -50%);
-  top: 3.5em;
-  font: bold 10pt Helvetica;
+  top: 3em;
+  font: bold 11pt "Century Gothic";
+  color:black;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .barra:hover{
-  color:#999999;
+  color:black;
   transition: 0.2s;
+  border: 2px solid #C01823;
 }
 
 #logo_piccolo{
@@ -60,7 +66,6 @@ a{
 #contatti{
   right:8%;
 }
-
 /* Fine barra dei menù */
 
 

@@ -130,81 +130,75 @@ h3{
   top: 120px;
 }
 
-#c_2{
-  top:245px;
-}
+#c_2{  top:245px;}
 
-#c_3{
-  top:490px;
-}
+#c_3{  top:490px;}
 
-#c_4{
-  top:830px;
-}
+#c_4{  top:830px;}
 
-#b_1{
-  top:80px;
-    height: 144px;
-}
+#c_5{  top:1130px;}
 
-#b_2{
-  top:330px;
-    height: 133.5px;
-}
 
-#b_3{
-  top:570px;
-    height: 244px;
-}
 
-#b_4{
-  top:910px;
-    height: 204px;
-}
+#b_1{  top:80px;
+    height: 144px;}
 
-#l_1{
-  position: absolute;
+#b_2{  top:330px;
+    height: 133.5px;}
+
+#b_3{  top:570px;
+    height: 244px;}
+
+#b_4{  top:910px;
+    height: 204px;}
+
+#b_5{  top:1215px;
+        height: 204px;}
+
+
+
+
+#l_1{  position: absolute;
   top: -25px;
   left: 50px;
-  height: 162px;
-}
+  height: 162px;}
 
-#l_2{
-  position: absolute;
+#l_2{  position: absolute;
   top: 220px;
   left: 50px;
-  height: 162px;
-}
+  height: 162px;}
 
-#l_3{
-  position: absolute;
+#l_3{  position: absolute;
   top: 460px;
   left: 50px;
-  height: 162px;
-}
+  height: 162px;}
 
-#l_4{
-  position: absolute;
+#l_4{  position: absolute;
   top: 800px;
   left: 50px;
-  height: 162px;
-}
+  height: 162px;}
 
-#f_2{
-  left:5px;
-}
-#f_3{
-  left:10px;
-}
+#l_5{  position: absolute;
+    top: 1100px;
+    left: 50px;
+    height: 162px;}
 
-#uno{
-  background-image: url(foto_storia/p_uno.png);
+
+
+
+#f_2{  left:5px;}
+
+#f_3{  left:10px;}
+
+
+
+
+#uno{  background-image: url(foto_storia/p_uno.png);
   position: absolute;
   top: 23px;
   height: 200px;
   right: 56px;
-  width: 460px;
-}
+  width: 460px;}
 
 #due{background-image: url(foto_storia/p_due.png);
 position: absolute;
@@ -224,6 +218,13 @@ width: 460px;}
 #quattro{background-image: url(foto_storia/p_quattro.png);
 position: absolute;
 top: 850px;
+height: 250px;
+right: 56px;
+width: 460px;}
+
+#cinque{background-image: url(foto_storia/p_cinque.png);
+position: absolute;
+top: 1150px;
 height: 250px;
 right: 56px;
 width: 460px;}

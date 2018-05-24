@@ -138,6 +138,10 @@ h3{
   top:490px;
 }
 
+#c_4{
+  top:830px;
+}
+
 #b_1{
   top:80px;
     height: 144px;
@@ -151,6 +155,11 @@ h3{
 #b_3{
   top:570px;
     height: 244px;
+}
+
+#b_4{
+  top:910px;
+    height: 204px;
 }
 
 #l_1{
@@ -174,6 +183,12 @@ h3{
   height: 162px;
 }
 
+#l_4{
+  position: absolute;
+  top: 800px;
+  left: 50px;
+  height: 162px;
+}
 
 #f_2{
   left:5px;
@@ -201,7 +216,14 @@ width: 460px;}
 
 #tre{background-image: url(foto_storia/p_tre.png);
 position: absolute;
-top: 520px;
+top: 510px;
 height: 290px;
+right: 56px;
+width: 460px;}
+
+#quattro{background-image: url(foto_storia/p_quattro.png);
+position: absolute;
+top: 850px;
+height: 250px;
 right: 56px;
 width: 460px;}

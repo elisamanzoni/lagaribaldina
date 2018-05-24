@@ -63,20 +63,17 @@ a{
 
 /* Fine barra dei menù */
 
-h1 {
-    font: bold 20pt "Century Gothic";
+h1 {    font: bold 20pt "Century Gothic";
     color: #C01823;
     position: absolute;
     transform: translate(-50%,-50%);
     left:50%;
-    top:6em;
-}
+    top:6em;}
 
 h2 {position: absolute;
   left: 50px;
   top:15;
-    font: bold 15pt "Century Gothic";
-}
+    font: bold 15pt "Century Gothic";}
 
 p {position: absolute;
   left: 50px;
@@ -84,15 +81,18 @@ p {position: absolute;
   width: 346px;
     font:  12pt "Century Gothic";
     color: black;
-    line-height: 16pt;
-}
+    line-height: 16pt;}
 
-h3{
-  color: #C01823;
+
+h3{  color: #C01823;
   position: absolute;
   top:0;
-      font: bold 30pt "Century Gothic";
-}
+      font: bold 30pt "Century Gothic";}
+
+
+em{  font: bold  12pt "Century Gothic";}
+
+
 
 #centrale{
   position: absolute;
@@ -138,6 +138,12 @@ h3{
 
 #c_5{  top:1130px;}
 
+#c_6{  top:1430px;}
+
+#c_7{  top:1670px;}
+
+#c_8{  top:1925px;}
+
 
 
 #b_1{  top:80px;
@@ -154,6 +160,12 @@ h3{
 
 #b_5{  top:1215px;
         height: 204px;}
+
+#b_6{  top:1510px;
+        height: 144px;}
+
+#b_7{  top:1750px;
+        height: 160px;}
 
 
 
@@ -183,12 +195,30 @@ h3{
     left: 50px;
     height: 162px;}
 
+#l_6{  position: absolute;
+        top: 1400px;
+        left: 50px;
+        height: 162px;}
+
+#l_7{  position: absolute;
+        top: 1640px;
+        left: 50px;
+        height: 162px;}
+
+  #l_8{  position: absolute;
+          top: 1900px;
+        left: 50px;
+        height: 162px;}
 
 
 
 #f_2{  left:5px;}
 
-#f_3{  left:10px;}
+#f_3{  left:5px;}
+
+#f_7{  left:5px;}
+
+#f_8{  left:15px;}
 
 
 
@@ -225,6 +255,27 @@ width: 460px;}
 #cinque{background-image: url(foto_storia/p_cinque.png);
 position: absolute;
 top: 1150px;
+height: 250px;
+right: 56px;
+width: 460px;}
+
+#sei{background-image: url(foto_storia/p_uno.png);
+position: absolute;
+top: 1460px;
+height: 200px;
+right: 56px;
+width: 460px;}
+
+#sette{background-image: url(foto_storia/p_sette.png);
+position: absolute;
+top: 1700px;
+height: 210px;
+right: 56px;
+width: 460px;}
+
+#otto{background-image: url(foto_storia/p_otto.png);
+position: absolute;
+top: 1955px;
 height: 250px;
 right: 56px;
 width: 460px;}

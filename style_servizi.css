@@ -104,7 +104,27 @@ h1 {
       to{opacity: 1;}
     }
 
+    @keyframes move{
+      from{position: absolute;
+      top:500px;}
+      to{position: absolute;
+      top:600px;}
+    }
+
+
+
 #opacity{animation: opacity 3s}
+
+#freccia{
+  position: absolute;
+  width:4em;
+  height: 2em;
+  transform: translate(-50%, 0);
+  left: 50%;
+  top: 600px;
+  animation: move 1s;
+}
+
 
 
 

@@ -150,7 +150,15 @@ h1 {
   left:50%;
 }
 
+.red{
+  position: absolute;
+  width: 100%;
+  left:0%;
+    background-color: #C01823;  }
 
+
+#red1{  top:920px;
+  height: 45em;}
 
     p {    font:  19pt "Century Gothic";
         color: white;

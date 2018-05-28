@@ -198,7 +198,7 @@ em{
     transform: translate(-50%,0);
     left:50%;
     height: 30em;
-    width: 800px;
+    width: 700px;
   }
 
     #h2_red {
@@ -227,7 +227,7 @@ left:50%;}
 .testo_servizi{
   text-align: center;
     width: 33%;
-    font: 17pt "Century Gothic";
+    font: 15pt "Century Gothic";
     color: white;
     position: absolute;
     top:380px;}

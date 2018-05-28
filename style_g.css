@@ -48,19 +48,19 @@ a{
 }
 
 #viaggi{
-  right:36%;
+  right:15%;
 }
 
 #gallery{
-  right:29%;
-}
-
-#canzoni{
   right:22%;
 }
 
+#canzoni{
+  right:29%;
+}
+
 #servizi{
-  right:15%;
+  right:36%;
 }
 
 #contatti{
@@ -204,19 +204,39 @@ em{
     #h2_red {
       text-align: center;
         width: 600px;
-        font:bold 20pt "Century Gothic";
+        font:bold 30pt "Century Gothic";
         color: white;
         position: absolute;
         left:50%;
         transform: translate(-50%,0);
-        top:170px;;
+        top:90px;;
         line-height: 1.5em;
     }
 
-    .barra2{
-      position: absolute;
-      top:360px;
-    }
+.cerchio_servizi{
+  position: absolute;
+  width:150px;
+  top:200px;
+}
+
+#bambina{left:0%;}
+#piffero{transform: translate(-50%,0);
+left:50%;}
+#cuore{right:0%;}
+
+.testo_servizi{
+  text-align: center;
+    width: 33%;
+    font: 17pt "Century Gothic";
+    color: white;
+    position: absolute;
+    top:380px;}
+
+    #t_bambina{left:-7%;}
+    #t_piffero{transform: translate(-50%,0);
+    left:50%;}
+    #t_cuore{right:-7.5%;}
+
 
     #scopri2{
       text-align: center;
@@ -224,7 +244,7 @@ em{
         color: white;
         line-height: 50px;
       position: absolute;
-      top:25em;
+      top:30em;
       width:150px;
       height: 50px;
       transform: translate(-50%, 0);
@@ -303,44 +323,49 @@ em{
   height: 389px;
 }
 
-    /*Fine parte 3 */
+    /*Footer*/
 
-#red2{top:175em;
-  height: 23em;}
 
-#sei{
+#red_footer{
+  position: absolute;
+  width: 100%;
+  left:0%;
+  top:83em;
+    background-color: #C01823;
+    top:175em;
+  height: 20em;}
+
+#footer{
   position:absolute;
   left:50%;
   transform: translate(-50%,0);
   left:50%;
   height: 20em;
   width: 800px;
-  top: 170em;    }
+  top: 169em;    }
 
-  #h3_red {
-    text-align: center;
-      width: 600px;
-      font:bold 25pt "Century Gothic";
+  #h3_footer {
+    transform: translate(-50%, 0);
+      font: 15pt "Century Gothic";
       color: white;
       position: absolute;
       left:50%;
-      transform: translate(-50%,0);
       top:170px;;
-      line-height: 1.5em;
+      line-height: 40px;
+      text-align: center;
   }
 
   .loghi{
     position: absolute;
     transform: translate(-50%, 0);
-    height: 50px;
-    top:270px;
+    height: 30px;
+    top:320px;
   }
 
-  #facebook{left:30%;}
+  #facebook{left:40%;}
     #youtube{left:50%;}
-      #google{left:70%;}
+      #google{left:60%;}
 
       .link:hover{
-        opacity:0.8;
-        transition: 0.2s;
-      }
+        opacity:0.5;
+        transition: 0.2s;   }

@@ -133,10 +133,10 @@ h1 {
   #grey{
     position: absolute;
     width: 500px;
-    height: 350px;
+    height: 370px;
     left:0%;
     top:15em;
-      background-color: #CCCCCC;
+      background-color: #F2F2F2;
     }
 
     .H1_grey{
@@ -153,24 +153,26 @@ h1 {
   width: 240px;
   font:  15pt "Century Gothic";}
 
+#em1{font:bold 18pt "Century Gothic";}
+
   .loghetti_black{
     position:absolute;
     height: 30px;
   }
 
 #youtube_black{
-  top:250px;
+  top:290px;
   left:40px;
 }
 
 #facebook_black{
-  top:250px;
+  top:290px;
   left:110px;
 }
 
 
 #google_black{
-  top:250px;
+  top:290px;
   left:165px;
 }
   /* inizio loghetti*/

@@ -116,7 +116,7 @@ h2 {
   text-align: center;
     font:bold 30pt "Century Gothic";
     color: #C01823;
-}
+  width: 600px;}
 
 h3{
   transform: translate(-50%, 0);
@@ -126,6 +126,7 @@ h3{
   top:5.3em;
   font:25pt "Century Gothic";
   color: #C01823;
+    width: 600px;
 }
 
 #barra{
@@ -154,8 +155,7 @@ p{
 }
 
 em{
-  font:BOLD 14pt "Century Gothic";
-}
+  font:BOLD 14pt "Century Gothic";}
 
 #scopri{
   text-align: center;
@@ -182,14 +182,15 @@ em{
 
 
 
-#red{
+.red{
   position: absolute;
   width: 100%;
-  height: 30em;
+  height: 40em;
   left:0%;
   top:83em;
-    background-color: #C01823;
-  }
+    background-color: #C01823;  }
+
+  #red1{top:83em;}
 
   #quattro{
     position:absolute;
@@ -208,11 +209,137 @@ em{
         position: absolute;
         left:50%;
         transform: translate(-50%,0);
-        top:4em;
+        top:170px;;
         line-height: 1.5em;
     }
 
     .barra2{
       position: absolute;
-      top:20em;
+      top:360px;
     }
+
+    #scopri2{
+      text-align: center;
+        font:BOLD 12pt "Century Gothic";
+        color: white;
+        line-height: 50px;
+      position: absolute;
+      top:25em;
+      width:150px;
+      height: 50px;
+      transform: translate(-50%, 0);
+      left: 50%;
+      border: 2px solid white;
+      opacity: 0.7;
+      border-radius: 10px;
+    }
+
+    #scopri2:hover{
+      opacity:1;
+      transition: 0.2s;}
+
+
+    /*Fine parte 2 */
+
+
+    #cinque{
+      position:absolute;
+      left:50%;
+      transform: translate(-50%,0);
+      left:50%;
+      height: 60em;
+      width: 800px;
+      top: 120em;    }
+
+  .barra3{top:14em;}
+
+.appuntamenti{
+  position: absolute;
+  top:300px;
+  width: 389px;
+  height: 389px;
+  background-color: #F2F2F2;
+}
+
+#q_dx{  right: 0;}
+
+
+#flauto{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left:50%;
+  top:494.5px;
+}
+
+#date{
+  position: absolute;
+  top:30px;
+  left: 30px;
+  font: bold 18pt "Century Gothic";
+  width:300px;
+}
+
+#nome_app{
+  position: absolute;
+  top:70px;
+  left: 30px;
+  font: bold 18pt "Century Gothic";
+  color: #C01823;
+  width:300px;
+}
+
+#testo_app{
+  position: absolute;
+  top:50%;
+  left: 30px;
+  font: 15pt "Century Gothic";
+  width:280px;
+  line-height: 27px;
+}
+
+#right{
+  position: absolute;
+  left: 30px;
+  height: 389px;
+}
+
+    /*Fine parte 3 */
+
+#red2{top:175em}
+
+#sei{
+  position:absolute;
+  left:50%;
+  transform: translate(-50%,0);
+  left:50%;
+  height: 30em;
+  width: 800px;
+  top: 175em;    }
+
+  #h3_red {
+    text-align: center;
+      width: 600px;
+      font:bold 25pt "Century Gothic";
+      color: white;
+      position: absolute;
+      left:50%;
+      transform: translate(-50%,0);
+      top:170px;;
+      line-height: 1.5em;
+  }
+
+  .loghi{
+    position: absolute;
+    transform: translate(-50%, 0);
+    height: 50px;
+    top:320px;
+  }
+
+  #facebook{left:30%;}
+    #youtube{left:50%;}
+      #google{left:70%;}
+
+      .link:hover{
+        opacity:0.8;
+        transition: 0.2s;
+      }

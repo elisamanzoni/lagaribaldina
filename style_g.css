@@ -168,12 +168,13 @@ em{
   transform: translate(-50%, 0);
   left: 50%;
   border: 2px solid black;
-  opacity: 0.5;
   border-radius: 10px;
 }
 
 #scopri:hover{
-  opacity:1;
+  background-color: #C01823;
+    border: 2px solid #C01823;
+  color:white;
   transition: 0.2s;}
 
 /*Fine parte 1 */
@@ -198,7 +199,7 @@ em{
     transform: translate(-50%,0);
     left:50%;
     height: 30em;
-    width: 700px;
+    width: 750px;
   }
 
     #h2_red {
@@ -219,10 +220,10 @@ em{
   top:200px;
 }
 
-#bambina{left:0%;}
+#bambina{left:6.5%;}
 #piffero{transform: translate(-50%,0);
 left:50%;}
-#cuore{right:0%;}
+#cuore{right:6.8%;}
 
 .testo_servizi{
   text-align: center;
@@ -232,10 +233,10 @@ left:50%;}
     position: absolute;
     top:380px;}
 
-    #t_bambina{left:-7%;}
+    #t_bambina{left:0%;}
     #t_piffero{transform: translate(-50%,0);
     left:50%;}
-    #t_cuore{right:-7.5%;}
+    #t_cuore{right:0%;}
 
 
     #scopri2{
@@ -250,12 +251,12 @@ left:50%;}
       transform: translate(-50%, 0);
       left: 50%;
       border: 2px solid white;
-      opacity: 0.7;
       border-radius: 10px;
     }
 
     #scopri2:hover{
-      opacity:1;
+      background-color: white;
+      color:#C01823;
       transition: 0.2s;}
 
 

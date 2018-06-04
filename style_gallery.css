@@ -141,7 +141,7 @@ h1 {
   height: 140em;
 }
 
-#centrale_foto{
+#centrale_foto_a_b{
   position: absolute;
   background-color: none;
   width: 800px;
@@ -151,18 +151,28 @@ h1 {
   left:50%;
 }
 
+#centrale_foto_c_d{
+  position: absolute;
+  background-color: none;
+  width: 800px;
+  top:50em;
+  height: 533px;
+  transform: translate(-50%,0);
+  left:50%;
+}
+
 .foto{
   position:absolute;
-  width: 800px;
-}
+  width: 574px;}
 
-.op0{
-  opacity:0;
-}
+  .foto2{
+    position:absolute;
+    width: 574px;
+  right:0%;}
 
-.op1{
-  opacity:1;
-}
+.op0{  opacity:0;}
+
+.op1{  opacity:1;}
 
 .dx{
   opacity: 1;
@@ -174,14 +184,51 @@ h1 {
   transition: 1s;
 }
 
+    /*didascalie*/
 
+#titolo_1{
+  position: absolute;
+  color: #C01823;
+  right: 0px;
+  TOP:80PX;
+  font: bold 22pt "Century Gothic";
+  width: 190px;
+  line-height: 30px;
+}
+
+
+.didascalie{
+  position: absolute;
+  background-color: #C01823;
+  width: 374px;
+  height: 179px;
+  top:250px;
+}
+
+.destra{  right:0%;}
+.sinistra{  left:0%;}
+
+.d_testo{
+  position: absolute;
+  color: white;
+  transform: translate(-50%, -50%);
+  left:50%;
+  top:50%;
+  font: 18pt "Century Gothic";
+  width: 300px;
+  line-height: 35px;
+}
+
+
+
+
+    /*Freccia*/
 
 .freccia{
   position:absolute;
-  height: 60.5px;
+  height: 50px;
   transform: translate(0,-50%);
-  top:50%;
-  opacity: 0.7;
+  top:200px;
 }
 
 .freccia:hover{
@@ -190,14 +237,24 @@ h1 {
 
 
 #freccia_sx{
-  left:10px;
-}
+  right:140px;}
 
 #freccia_dx{
-  right:10px;
-}
+  right:50px;}
 
+  #freccia_sx2{
+    left:50px;}
 
+  #freccia_dx2{
+    left:140px;}
+
+#gray{
+  position: absolute;
+  width: 100%;
+  left:0%;
+  top:92em;
+    background-color: #F2F2F2;
+  height: 45em;}
 
     /*Footer*/
 

@@ -193,8 +193,19 @@ h1 {
   TOP:80PX;
   font: bold 22pt "Century Gothic";
   width: 190px;
-  line-height: 30px;
+  line-height: 33px;
 }
+
+#titolo_2{
+  position: absolute;
+  color: #C01823;
+  LEFt: 0px;
+  TOP:80PX;
+  font: bold 22pt "Century Gothic";
+  width: 190px;
+  line-height: 33px;
+}
+
 
 
 .didascalie{
@@ -218,6 +229,9 @@ h1 {
   width: 300px;
   line-height: 35px;
 }
+
+#d_1{  font: 16pt "Century Gothic";
+line-height: 30px;}
 
 
 

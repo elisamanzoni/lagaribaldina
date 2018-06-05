@@ -168,3 +168,98 @@ $("#d_4").removeClass("dx");}
 
 
 $("#freccia_sx2").click(scompare2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function compare_e_2(){
+  $("#e_2").addClass("dx");
+$("#e_2").removeClass("sx");
+$("#f_2").addClass("dx");
+$("#f_2").removeClass("sx");}
+
+function compare_e_3(){
+  $("#e_3").addClass("dx");
+$("#e_3").removeClass("sx");
+$("#f_3").addClass("dx");
+$("#f_3").removeClass("sx");}
+
+function compare_e_4(){
+  $("#e_4").addClass("dx");
+$("#e_4").removeClass("sx");
+$("#f_4").addClass("dx");
+$("#f_4").removeClass("sx");}
+
+
+
+
+
+
+
+
+function compare3(){
+if ($("#e_3").hasClass("dx"))
+  compare_e_4();
+  else   if ($("#e_2").hasClass("dx"))
+  compare_e_3();
+  else compare_e_2();}
+
+$("#freccia_dx3").click(compare3);
+
+
+
+
+
+function scompare_e_2(){
+  $("#e_2").addClass("sx");
+  $("#e_2").removeClass("dx");
+  $("#f_2").addClass("sx");
+  $("#f_2").removeClass("dx");}
+
+  function scompare_e_3(){
+    $("#e_3").addClass("sx");
+  $("#e_3").removeClass("dx");
+  $("#f_3").addClass("sx");
+$("#f_3").removeClass("dx");}
+
+  function scompare_e_4(){
+    $("#e_4").addClass("sx");
+  $("#e_4").removeClass("dx");
+  $("#f_4").addClass("sx");
+$("#f_4").removeClass("dx");}
+
+
+
+
+
+    function scompare3(){
+     if ($("#e_4").hasClass("dx"))
+      scompare_e_4();
+      else  if ($("#e_3").hasClass("dx"))
+      scompare_e_3();
+      else scompare_e_2();}
+
+
+$("#freccia_sx3").click(scompare3);

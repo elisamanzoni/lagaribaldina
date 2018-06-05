@@ -161,6 +161,16 @@ h1 {
   left:50%;
 }
 
+#centrale_foto_e_f{
+  position: absolute;
+  background-color: none;
+  width: 800px;
+  top:94em;
+  height: 533px;
+  transform: translate(-50%,0);
+  left:50%;
+}
+
 .foto{
   position:absolute;
   width: 574px;}
@@ -262,6 +272,12 @@ line-height: 30px;}
   #freccia_dx2{
     left:140px;}
 
+    #freccia_sx3{
+      right:140px;}
+
+    #freccia_dx3{
+      right:50px;}
+
 #gray{
   position: absolute;
   width: 100%;
@@ -277,9 +293,8 @@ line-height: 30px;}
   position: absolute;
   width: 100%;
   left:0%;
-  top:83em;
     background-color: #C01823;
-    top:175em;
+    top:180em;
   height: 20em;}
 
 #footer{
@@ -289,7 +304,7 @@ line-height: 30px;}
   left:50%;
   height: 20em;
   width: 800px;
-  top: 169em;    }
+  top: 174em;    }
 
   #h3_footer {
     transform: translate(-50%, 0);

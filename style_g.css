@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 #sopra{
   position:fixed;
   height: 5.5em;
@@ -12,7 +14,9 @@
   position: fixed;
   transform: translate(50%, -50%);
   top: 3em;
-  font: bold 11pt "Century Gothic";
+  font-size: 11pt;
+  font-family: 'Montserrat';
+  font-weight: 600;
   color:black;
   height: 50px;
   width: 100px;
@@ -114,7 +118,8 @@ h2 {
   position: absolute;
   TOP:3em;
   text-align: center;
-    font:bold 30pt "Century Gothic";
+    font-size: 30pt;
+    font-family: 'Montserrat';
     color: #C01823;
   width: 600px;}
 
@@ -124,7 +129,9 @@ h3{
   text-align: center;
   position: absolute;
   top:5.3em;
-  font:25pt "Century Gothic";
+  font-size: 25pt;
+  font-family: 'Montserrat';
+  font-weight: 400;
   color: #C01823;
     width: 600px;
 }
@@ -143,13 +150,15 @@ h3{
   top:18em;
 }
 p{
-  width: 600px;
+  width: 650px;
   transform: translate(-50%, 0);
   left: 50%;
   text-align: center;
   position: absolute;
   top:13em;
-  font:17pt "Century Gothic";
+  font-size: 17pt;
+  font-family: 'Montserrat';
+  font-weight: 400;
   color: black;
   line-height: 1.5em;
 }

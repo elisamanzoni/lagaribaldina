@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#sopra{
+  position:fixed;
+  height: 5.5em;
+  width: 100%;
+  background-color: white;
+  top:0%;
+  left:0%;
+  box-shadow: 0px 0px 30px grey;
+}
+
+.barra{
+  position: fixed;
+  transform: translate(50%, -50%);
+  top: 3.5em;
+  font-size: 10pt;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color:black;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.barra:hover{
+  color:black;
+  transition: 0.2s;
+  border: 2px solid #C01823;
+}
+
+#logo_piccolo{
+  position:fixed;
+  width: 13em;
+  top: 3em;
+  left:3em;
+  transform: translate(0, -50%);
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+#HOME{
+  right:50%;
+}
+
+#la_banda{
+  right:43%;
+}
+
+#viaggi{
+  right:15%;
+}
+
+#gallery{
+  right:22%;
+}
+
+#canzoni{
+  right:29%;
+}
+
+#servizi{
+  right:36%;
+}
+
+#contatti{
+  right:8%;
+}
+
+/* Fine barra dei menù */
+
+h1 {
+  font-size: 33pt;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+    color: #C01823;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:6em;
+}
+
+
+
+
+
+#barra{
+    position: absolute;
+    width:2em;
+    height: 0.3em;
+    background-color: #2B3990;
+    transform: translate(-50%, 0);
+    left: 50%;}
+
+  .barra1{
+    top:22em;  }
+
+
+#rosso{
+  position: absolute;
+  background-color: none;
+  width: 800px;
+  top:18em;
+  height: 80em;
+  transform: translate(-50%,0);
+  left:50%;
+}
+
+#centro{
+  position: absolute;
+  background-color: none;
+  width: 800px;
+  top:13em;
+  height: 60em;
+  transform: translate(-50%,0);
+  left:50%;
+}
+
+
+
+
+#cartina{
+    position:absolute;
+    top: 300px;
+    right:0%;
+    border: 5px solid black;}
+
+#red{
+  position: absolute;
+  width: 100%;
+  height: 50em;
+  left:0%;
+  top:40em;
+    background-color: #C01823;
+  }
+
+  #grey{
+    position: absolute;
+    width: 500px;
+    height: 370px;
+    left:0%;
+    top:15em;
+      background-color: #F2F2F2;
+    }
+
+    .H1_grey{
+      position: absolute;
+        left:40px;
+      top:60px;
+      width: 250px;
+      font-size: 19pt;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;}
+
+.p_grey{
+  position: absolute;
+    left:40px;
+  top:120px;
+  width: 240px;
+  font-size: 14pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;}
+
+#em1{font-size: 17pt;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-style:normal; }
+
+  .loghetti_black{
+    position:absolute;
+    height: 30px;
+  }
+
+#youtube_black{
+  top:290px;
+  left:40px;
+}
+
+#facebook_black{
+  top:290px;
+  left:110px;
+}
+
+
+#google_black{
+  top:290px;
+  left:165px;
+}
+  /* inizio loghetti*/
+
+
+
+.opacity:hover{
+  opacity:0.5;
+  transition: 0.2s;
+}
+
+
+#cartina:hover{
+width:560px;
+height: 560px;
+box-shadow:    5px 5px 30px black;
+transition: 0.2s;
+}
+
+
+h4{
+  position: absolute;
+  top:930px;
+  font-size: 20pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, 0);
+    left: 50%;
+    line-height: 70px;
+
+}
+
+em{font-size: 20pt;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-style:normal; }
+
+
+    /*Footer*/
+
+
+#red_footer{
+  position: absolute;
+  width: 100%;
+  left:0%;
+  top:83em;
+    background-color: #C01823;
+    top:70em;
+  height: 20em;}
+
+#footer{
+  position:absolute;
+  left:50%;
+  transform: translate(-50%,0);
+  left:50%;
+  height: 20em;
+  width: 800px;
+  top: 64em;    }
+
+  #h3_footer {
+    transform: translate(-50%, 0);
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+      color: white;
+      position: absolute;
+      left:50%;
+      top:170px;;
+      line-height: 40px;
+      text-align: center;
+  }
+
+  .loghi{
+    position: absolute;
+    transform: translate(-50%, 0);
+    height: 30px;
+    top:320px;
+  }
+
+  #facebook{left:40%;}
+    #youtube{left:50%;}
+      #google{left:60%;}
+
+      .link:hover{
+        opacity:0.5;
+        transition: 0.2s;   }

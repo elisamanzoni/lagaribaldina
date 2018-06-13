@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 #sopra{
   position:fixed;
   height: 5.5em;
@@ -11,8 +13,10 @@
 .barra{
   position: fixed;
   transform: translate(50%, -50%);
-  top: 3em;
-  font: bold 11pt "Century Gothic";
+  top: 3.5em;
+  font-size: 10pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   color:black;
   height: 50px;
   width: 100px;
@@ -66,10 +70,13 @@ a{
 #contatti{
   right:8%;
 }
+
 /* Fine barra dei menù */
 
 h1 {
-    font: bold 35pt "Century Gothic";
+  font-size: 33pt;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 800;
     color: #C01823;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -77,11 +84,13 @@ h1 {
     top:6em;
 }
 
-#p_1{font:  20pt "Century Gothic";
+#p_1{font-size: 19pt;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
     color: black;
     position: absolute;
     text-align: center;
-    top: 17em;
+    top: 18em;
     width: 500px;
     transform: translate(-50%,-50%);
     left:50%;
@@ -201,7 +210,9 @@ h1 {
   color: #C01823;
   right: 0px;
   TOP:80PX;
-  font: bold 22pt "Century Gothic";
+  font-size: 20pt;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 600;
   width: 190px;
   line-height: 33px;
 }
@@ -211,7 +222,9 @@ h1 {
   color: #C01823;
   LEFt: 0px;
   TOP:80PX;
-  font: bold 22pt "Century Gothic";
+  font-size: 20pt;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 600;
   width: 190px;
   line-height: 33px;
 }
@@ -235,12 +248,16 @@ h1 {
   transform: translate(-50%, -50%);
   left:50%;
   top:50%;
-  font: 18pt "Century Gothic";
+  font-size: 18pt;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 300;
   width: 300px;
   line-height: 35px;
 }
 
-#d_1{  font: 16pt "Century Gothic";
+#d_1{    font-size: 16pt;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 300;
 line-height: 30px;}
 
 
@@ -308,7 +325,9 @@ line-height: 30px;}
 
   #h3_footer {
     transform: translate(-50%, 0);
-      font: 15pt "Century Gothic";
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
       color: white;
       position: absolute;
       left:50%;

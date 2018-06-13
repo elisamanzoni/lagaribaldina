@@ -13,8 +13,8 @@
 .barra{
   position: fixed;
   transform: translate(50%, -50%);
-  top: 3em;
-  font-size: 11pt;
+  top: 3.5em;
+  font-size: 10pt;
   font-family: 'Montserrat';
   font-weight: 600;
   color:black;
@@ -163,15 +163,19 @@ p{
   line-height: 1.5em;
 }
 
-em{
-  font:BOLD 14pt "Century Gothic";}
+em{font-size: 14pt;
+font-family: 'Montserrat';
+font-weight: 700;
+font-style:normal; }
 
 #scopri{
   text-align: center;
-    font:BOLD 12pt "Century Gothic";
+  font-size: 11pt;
+  font-family: 'Montserrat';
+  font-weight: 800;
     line-height: 50px;
   position: absolute;
-  top:29em;
+  top:32em;
   width:150px;
   height: 50px;
   transform: translate(-50%, 0);
@@ -214,7 +218,8 @@ em{
     #h2_red {
       text-align: center;
         width: 600px;
-        font:bold 30pt "Century Gothic";
+        font-size: 30pt;
+        font-family: 'Montserrat';
         color: white;
         position: absolute;
         left:50%;
@@ -237,7 +242,9 @@ left:50%;}
 .testo_servizi{
   text-align: center;
     width: 33%;
-    font: 15pt "Century Gothic";
+    font-size: 14pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
     color: white;
     position: absolute;
     top:380px;}
@@ -250,11 +257,13 @@ left:50%;}
 
     #scopri2{
       text-align: center;
-        font:BOLD 12pt "Century Gothic";
+      font-size: 11pt;
+      font-family: 'Montserrat';
+      font-weight: 800;
         color: white;
         line-height: 50px;
       position: absolute;
-      top:30em;
+      top:32.5em;
       width:150px;
       height: 50px;
       transform: translate(-50%, 0);
@@ -305,7 +314,9 @@ left:50%;}
   position: absolute;
   top:30px;
   left: 30px;
-  font: bold 18pt "Century Gothic";
+  font-size: 17pt;
+  font-family: 'Montserrat';
+  font-weight: 800;
   width:300px;
 }
 
@@ -313,7 +324,9 @@ left:50%;}
   position: absolute;
   top:70px;
   left: 30px;
-  font: bold 18pt "Century Gothic";
+  font-size: 17pt;
+  font-family: 'Montserrat';
+  font-weight: 800;
   color: #C01823;
   width:300px;
 }
@@ -322,7 +335,9 @@ left:50%;}
   position: absolute;
   top:50%;
   left: 30px;
-  font: 15pt "Century Gothic";
+  font-size: 15pt;
+  font-family: 'Montserrat';
+  font-weight: 400;
   width:280px;
   line-height: 27px;
 }
@@ -356,7 +371,9 @@ left:50%;}
 
   #h3_footer {
     transform: translate(-50%, 0);
-      font: 15pt "Century Gothic";
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
       color: white;
       position: absolute;
       left:50%;

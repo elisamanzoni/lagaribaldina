@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 #sopra{
   position:fixed;
   height: 5.5em;
@@ -11,8 +13,10 @@
 .barra{
   position: fixed;
   transform: translate(50%, -50%);
-  top: 3em;
-  font: bold 11pt "Century Gothic";
+  top: 3.5em;
+  font-size: 10pt;
+  font-family: 'Montserrat';
+  font-weight: 600;
   color:black;
   height: 50px;
   width: 100px;
@@ -66,12 +70,15 @@ a{
 #contatti{
   right:8%;
 }
+
 /* Fine barra dei menù */
 
 
 
 h1 {
-    font: bold 35pt "Century Gothic";
+  font-size: 33pt;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 800;
     color: #C01823;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -79,15 +86,18 @@ h1 {
     top:6em;
 }
 
-#p_1{font:  20pt "Century Gothic";
+#p_1{font-size: 19pt;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
     color: black;
     position: absolute;
     text-align: center;
-    top: 17em;
+    top: 18em;
     width: 500px;
     transform: translate(-50%,-50%);
     left:50%;
   line-height: 38px;}
+
 
 #barra{
     position: absolute;
@@ -131,7 +141,9 @@ h1 {
 .testo{
   position:absolute;
   text-align: center;
-  font: bold 15pt "Century Gothic";
+  font-size: 15pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
   transform: translate(-50%,-50%);
   left:50%;
   top:50%;
@@ -319,7 +331,9 @@ left:50%;
 
   #h3_footer {
     transform: translate(-50%, 0);
-      font: 15pt "Century Gothic";
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
       color: white;
       position: absolute;
       left:50%;
